@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes moveAnimal {
+  0% {
+    transform: translateY(5); 
+  }
+  50% {
+    transform: translateY(-12px); 
+  }
+  100% {
+    transform: translateY(5); 
+  }
+}
+
+
+.animate-moveAnimal {
+  animation: moveAnimal 1.5s ease-in-out infinite; 
+}
+
+
+.animate-delay-1 {
+  animation-delay: 0.5s;
+}
+.animate-delay-2 {
+  animation-delay: 1s;
+}
+.animate-delay-3 {
+  animation-delay: 1s;
+}
+.animate-delay-4 {
+  animation-delay: 1s;
+}
