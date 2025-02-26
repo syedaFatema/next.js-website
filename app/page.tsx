@@ -15,7 +15,9 @@ const Home: FC = () => {
           <h1 className="text-4xl text-white font-italic ml-[-50px]">
             Get To Know Me!
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
-              {" "}I'm passionate about Web Development!
+              {" "}I&apos;m passionate about Web Development!
+
+
             </span>
           </h1>
           <p className="text-gray-100 hidden md:block font-italic text-lg ml-[-50px]">
